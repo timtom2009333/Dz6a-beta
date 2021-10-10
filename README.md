@@ -1,2 +1,2 @@
 # Dz6a-beta
-dz6a.netlify.app
+https://dz6a.netlify.app
