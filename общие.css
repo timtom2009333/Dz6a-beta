@@ -16431,8 +16431,8 @@ div.u-video,
   font-size: calc(1em + 8px);
 }
 .menu-collapse .u-nav-link svg {
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   vertical-align: top;
   fill: currentColor;
 }
