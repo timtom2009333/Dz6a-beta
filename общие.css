@@ -16431,8 +16431,8 @@ div.u-video,
   font-size: calc(1em + 8px);
 }
 .menu-collapse .u-nav-link svg {
-  width: 2em;
-  height: 2em;
+  width: 1em;
+  height: 1em;
   vertical-align: top;
   fill: currentColor;
 }
@@ -33847,8 +33847,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-logo-image-1 {
-  max-width: 80px;
-  max-height: 80px;
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .u-header .u-menu-1 {
