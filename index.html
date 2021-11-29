@@ -102,7 +102,7 @@
 
     <script>
  // количество снежинок, которое будет на экране одновременно.
-let snowmax=40
+let snowmax=25
  
 // Цвета для снежинок. Для каждой конкретной снежинки цвет выбирается случайно из этого массива.
 let snowcolor=new Array("#b9dff5","#7fc7ff","#7fb1ff","#7fc7ff","#b9dff5")
@@ -114,10 +114,10 @@ let snowtype=new Array("Times")
 let snowletter="&#10052;"
  
 // Скорость движения снежинок (от 0.3 до 2)
-let sinkspeed=0.4
+let sinkspeed=1
  
 // Максимальный размер для снежинок
-let snowmaxsize=40
+let snowmaxsize=30
  
 // Минимальный размер для снежинок
 let snowminsize=10
@@ -127,9 +127,7 @@ let snowminsize=10
 // 3 в центральной части, 4 в правой части страницы
 let snowingzone=1
  
-////////////////////////
-///////// Конец настроек
-////////////////////////
+
  
 let snow=new Array()
 let marginbottom
