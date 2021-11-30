@@ -1,11 +1,10 @@
-/*begin-commonstyles library*//*!
- * froala_editor v3.2.3 (https://www.froala.com/wysiwyg-editor)
- * License https://froala.com/wysiwyg-editor/terms/
- * Copyright 2014-2020 Froala Labs
- */
 
 
 
+.cont {
+width:=1560;
+margin: 15px auto;
+}
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -33841,10 +33840,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-sheet-1 {
   min-height: 84px;
 }
-.cont {
-width:=1560;
-margin: 15px auto;
-}
+
 
 .u-header .u-image-1 {
   margin: 4px auto 0 0;
