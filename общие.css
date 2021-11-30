@@ -2,8 +2,8 @@
 
 
 .cont {
-width:=1560;
-margin: 15px auto;
+width:=1480px;
+margin: 0px ;
 }
 .fr-clearfix::after {
   clear: both;
