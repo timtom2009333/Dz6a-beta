@@ -18432,11 +18432,7 @@ a.pswp__share--download:hover {
 .u-layout-horizontal .u-gallery-item:last-child {
   margin-right: 0 !important;
 }
-.u-layout-horizontal .u-back-slide {
-  display: inline-block;
-  width: -webkit-fit-content;
-  width: fit-content;
-}
+
 .u-layout-horizontal .u-back-image {
   width: auto;
 }
