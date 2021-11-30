@@ -4,6 +4,11 @@
 .cont {
 width:=1180px;
 margin: 0px ;
+padding: 0px
+}
+html {
+overflow-x: hidden;
+overflow-y: scroll;
 }
 .fr-clearfix::after {
   clear: both;
