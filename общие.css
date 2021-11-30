@@ -14361,7 +14361,7 @@ div.u-video,
 }
 .u-metadata .u-meta-icon {
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 0px;
   vertical-align: middle;
 }
 .u-metadata .u-meta-icon:first-child {
