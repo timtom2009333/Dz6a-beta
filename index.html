@@ -31,7 +31,20 @@
     
   </head>
   <body data-home-page="Главная.html" data-home-page-title="Главная" class="u-body u-overlap" class="cont" ><header class="u-clearfix u-custom-color-1 u-header u-header" id="sec-523c"><div class="u-clearfix u-sheet u-sheet-1">
-       
+       <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(85851797, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/85851797" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
         <a href="index.html"><img src="images/logo.jpg" class="u-logo-image u-logo-image-1" data-image-width="80"></a>
         </a>
         <nav class="u-menu u-menu-dropdown u-offcanvas u-offcanvas-shift u-menu-1" data-responsive-from="MD">
@@ -74,15 +87,7 @@
          <h6 class="u-align-center u-text u-text-body-alt-color u-text-2" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">ТФТЛ</h6>
   <br>
   <br>
-  	<?php 
-$file = file("count.txt");
-$count = implode("", $file);
-$count++;
-$myfile = fopen("count.txt","w");
-fputs($myfile,$count);
-fclose($myfile);
-?>
-<span>Просмотров: <?=$count ?></span>
+  	
   <center>
   	
         <h5><a href="https://dz6ablog.blogspot.com/?m=1" class="nb">Перейти в блог класса</a></h5>
