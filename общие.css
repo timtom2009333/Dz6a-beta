@@ -17475,23 +17475,7 @@ blockquote .small:before {
 .pswp__button--arrow--right {
   right: 0;
 }
-.pswp__button--arrow--left:before,
-.pswp__button--arrow--right:before {
-  content: '';
-  top: 35px;
-  background-color: rgba(0, 0, 0, 0.3);
-  height: 30px;
-  width: 32px;
-  position: absolute;
-}
-.pswp__button--arrow--left:before {
-  left: 6px;
-  background-position: -138px -44px;
-}
-.pswp__button--arrow--right:before {
-  right: 6px;
-  background-position: -94px -44px;
-}
+
 /*
 
 	2. Share modal/popup and links
