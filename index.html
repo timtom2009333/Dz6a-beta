@@ -74,6 +74,15 @@
          <h6 class="u-align-center u-text u-text-body-alt-color u-text-2" data-animation-name="zoomIn" data-animation-duration="1000" data-animation-delay="0" data-animation-direction="">ТФТЛ</h6>
   <br>
   <br>
+  	<?php 
+$file = file("count.txt");
+$count = implode("", $file);
+$count++;
+$myfile = fopen("count.txt","w");
+fputs($myfile,$count);
+fclose($myfile);
+?>
+<span>Просмотров: <?=$count ?></span>
   <center>
   	
         <h5><a href="https://dz6ablog.blogspot.com/?m=1" class="nb">Перейти в блог класса</a></h5>
