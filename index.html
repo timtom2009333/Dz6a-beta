@@ -78,12 +78,7 @@
         <h5><a href="#" class="nb">Перейти в блог класса</a></h5>
      <h5> <a href="download.html" class="nb">Скачать мобильно приложение Dz6a android</a></h5>
 </center>
-<center>
-<h4>До нового года осталось:</h4><div align="center" style="padding:1px; border: 4px double blue; width: 200px; height: 350px;">
-<a href="https://samasajt.blogspot.ru/ "><img src="https://1.bp.blogspot.com/-28JelGun4wU/WiMzq30xc9I/AAAAAAAAAMM/F-I-QJdxP-AXQ5TCDLibBddPQ28ZXpbdgCLcBGAs/s1600/christmas-2846337_200x255.jpg" border="0" /></a>
-<div align="center" style="width: 200px;"><span style="font: 12pt sans-serif;  color: #0000CC ">До Нового Года осталось
 
- <b><div align="center"><br />
         <h3 class="u-align-center nb ">Отзывы </h3>
       <h5>  <p class="u-align-center u-text u-text-body-alt-color u-text-4">Отправляйте свои отзывы и предложения на почту dz6a.app@gmail.com и они появятся на сайте!</p></h5>
          <center>
@@ -106,73 +101,6 @@
         <svg class="u-svg-content" enable-background="new 0 0 551.13 551.13" viewBox="0 0 551.13 551.13" xmlns="http://www.w3.org/2000/svg" id="svg-1d98"><path d="m275.565 189.451 223.897 223.897h51.668l-275.565-275.565-275.565 275.565h51.668z"></path></svg>
     </span>
 
-   <script language="javascript">
-function cdtime(container, targetdate){
- if (!document.getElementById || !document.getElementById(container)) return
- this.container=document.getElementById(container)
- this.currentTime=new Date()
- this.targetdate=new Date(targetdate)
- this.timesup=false
- this.updateTime()
- }
- cdtime.prototype.updateTime=function(){
- var thisobj=this
- this.currentTime.setSeconds(this.currentTime.getSeconds()+1)
- setTimeout(function(){thisobj.updateTime()}, 1000)
- }
- cdtime.prototype.displaycountdown=function(baseunit, functionref){
- this.baseunit=baseunit
- this.formatresults=functionref
- this.showresults()
- }
- cdtime.prototype.showresults=function(){
- var thisobj=this
- var timediff=(this.targetdate-this.currentTime)/1000
- if (timediff<0){
- this.timesup=true
- this.container.innerHTML=this.formatresults()
- return
- }
- var oneMinute=60
- var oneHour=60*60
- var oneDay=60*60*24
- var dayfield=Math.floor(timediff/oneDay)
- var hourfield=Math.floor((timediff-dayfield*oneDay)/oneHour)
- var minutefield=Math.floor((timediff-dayfield*oneDay-hourfield*oneHour)/oneMinute)
- var secondfield=Math.floor((timediff-dayfield*oneDay-hourfield*oneHour-minutefield*oneMinute))
- if (this.baseunit=="hours"){
- hourfield=dayfield*24+hourfield
- dayfield="n/a"
- }
- else if (this.baseunit=="minutes"){
- minutefield=dayfield*24*60+hourfield*60+minutefield
- dayfield=hourfield="n/a"
- }
- else if (this.baseunit=="seconds"){
- var secondfield=timediff
- dayfield=hourfield=minutefield="n/a"
- }
- this.container.innerHTML=this.formatresults(dayfield, hourfield, minutefield, secondfield)
- setTimeout(function(){thisobj.showresults()}, 1000)
- }
- function formatresults2(){
- if (this.timesup==false){
- var displaystring="<span class='nonewyear'>"+arguments[0]+" Дней "+arguments[1]+" Часов<br>"+arguments[2]+" Минут "+arguments[3]+" Секунд</span> "
- }
- else{
- var displaystring="<span class='newyear1'>С Новым годом!!!</span>"
- //alert("С Новым годом!!!")
- }
- return displaystring
- }
- </script>
-
- <div id="countdowncontainer2"></div>
- <script type="text/javascript">
- var currentyear=new Date().getFullYear()
- var thischristmasyear=(new Date().getMonth()==0 && new Date().getDate()==1)? currentyear : currentyear + 1
- var christmas=new cdtime("countdowncontainer2", "january 1, "+thischristmasyear+" 0:0:00")
- christmas.displaycountdown("days", formatresults2)
-</script></div></b></span></div></div></center><b></b>
+   
   </body>
 </html>
