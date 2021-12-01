@@ -19835,6 +19835,10 @@ a.u-link.u-hover-color-1-dark-1:hover {
   color: #ffffff;
   background-color: #478ac9;
 }
+.colormen [class*="u-border-"] {
+
+  background-color: #478ac9 !important;
+}
 .u-button-style.u-color-1,
 .u-button-style.u-color-1[class*="u-border-"] {
   color: #ffffff !important;
