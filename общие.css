@@ -1,14 +1,13 @@
 body {
 overflow-x: hidden;
 overflow-y: hidden;
-
-
+min-width: 400px;
 }
 
 
 .cont {
-width:=200px;
-margin: 0px auto ;
+width:=1200px;
+margin: 10px auto ;
 
 }
 html {
