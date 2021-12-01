@@ -7,7 +7,7 @@ overflow-y: hidden;
 
 
 .cont {
-width:=1300px;
+width:=1200px;
 margin: 0px auto ;
 
 }
@@ -14287,7 +14287,14 @@ section.u-image,
   border: 5px solid #fff;
   border-radius: 100%;
 }
-
+.u-video-poster:after {
+  width: 0;
+  height: 0;
+  margin: -20px 0 0 -10px;
+  border-left: 40px solid #fff;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
 .u-background-video .u-video-poster:before,
 .u-background-video .u-video-poster:after {
   display: none;
@@ -14317,19 +14324,51 @@ section.u-image,
   object-fit: contain;
   background-size: contain;
 }
-
+@media (min-width: 1200px) {
+  .u-video.u-video-contain video-xl {
+    object-fit: contain;
+    background-size: contain;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .u-video.u-video-contain video-lg {
+    object-fit: contain;
+    background-size: contain;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .u-video.u-video-contain video-md {
+    object-fit: contain;
+    background-size: contain;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .u-video.u-video-contain video-sm {
+    object-fit: contain;
+    background-size: contain;
+  }
+}
+@media (max-width: 575px) {
+  .u-video.u-video-contain video-xs {
+    object-fit: contain;
+    background-size: contain;
+  }
+}
 div.u-video,
 .u-background-video {
   overflow: hidden;
 }
-
+@media (min-width: 768px) {
+  .u-background-video .embed-responsive {
+    pointer-events: none;
+  }
 }
 .u-metadata {
   display: table;
 }
 .u-metadata .u-meta-icon {
   display: inline-block;
-  margin-left: 0px;
+  margin-left: 5px;
   vertical-align: middle;
 }
 .u-metadata .u-meta-icon:first-child {
@@ -17443,7 +17482,23 @@ blockquote .small:before {
 .pswp__button--arrow--right {
   right: 0;
 }
-
+.pswp__button--arrow--left:before,
+.pswp__button--arrow--right:before {
+  content: '';
+  top: 35px;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 30px;
+  width: 32px;
+  position: absolute;
+}
+.pswp__button--arrow--left:before {
+  left: 6px;
+  background-position: -138px -44px;
+}
+.pswp__button--arrow--right:before {
+  right: 6px;
+  background-position: -94px -44px;
+}
 /*
 
   2. Share modal/popup and links
@@ -18384,7 +18439,11 @@ a.pswp__share--download:hover {
 .u-layout-horizontal .u-gallery-item:last-child {
   margin-right: 0 !important;
 }
-
+.u-layout-horizontal .u-back-slide {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: fit-content;
+}
 .u-layout-horizontal .u-back-image {
   width: auto;
 }
@@ -18486,7 +18545,19 @@ a.pswp__share--download:hover {
   width: 100%;
   height: 100%;
 }
-
+.u-shopping-cart-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  z-index: 1;
+  width: calc(1em + 3px);
+  height: calc(1em + 3px);
+  line-height: calc(1em + 2px);
+  text-align: center;
+  vertical-align: baseline;
+  box-sizing: content-box;
+}
 .u-cart-product-image {
   width: 100px;
   display: inline-block;
