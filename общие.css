@@ -7,12 +7,12 @@ overflow-y: hidden;
 
 
 .cont {
-width:=1580px;
-margin: 30px  ;
+width:=1300px;
+margin: 0px auto ;
 
 }
 html {
-padding: 10px  ; 
+
 overflow-x: hidden;
 overflow-y: scroll;
 
