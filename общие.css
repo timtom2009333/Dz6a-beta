@@ -14280,14 +14280,7 @@ section.u-image,
   border: 5px solid #fff;
   border-radius: 100%;
 }
-.u-video-poster:after {
-  width: 0;
-  height: 0;
-  margin: -20px 0 0 -10px;
-  border-left: 40px solid #fff;
-  border-top: 25px solid transparent;
-  border-bottom: 25px solid transparent;
-}
+
 .u-background-video .u-video-poster:before,
 .u-background-video .u-video-poster:after {
   display: none;
