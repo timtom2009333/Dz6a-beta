@@ -14351,10 +14351,7 @@ div.u-video,
 .u-background-video {
   overflow: hidden;
 }
-@media (min-width: 768px) {
-  .u-background-video .embed-responsive {
-    pointer-events: none;
-  }
+
 }
 .u-metadata {
   display: table;
