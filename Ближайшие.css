@@ -1,6 +1,3 @@
-.u-section-1 {
-  background-image: linear-gradient(#583f79, #478ac9);
-}
 
 .u-section-1 .u-sheet-1 {
   min-height: 800px;
@@ -16,9 +13,7 @@
   .u-section-1 .u-text-1 {
     width: 340px;
   }
-}.u-section-2 {
-  background-image: linear-gradient(#478ac9, #583f79);
-}
+
 
 .u-section-2 .u-sheet-1 {
   min-height: 1800px;
