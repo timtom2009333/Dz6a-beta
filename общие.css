@@ -1,5 +1,5 @@
 body {
-  background: url(https://s10.gifyu.com/images/fon65f73d88c8c06625.gif) no-repeat; /* Задаём фон GIF-картинкой */
+  background: url(fon1.gif) no-repeat; /* Задаём фон GIF-картинкой */
 background-position: center center;      
 background-attachment: fixed;    
  background-size: cover;  
