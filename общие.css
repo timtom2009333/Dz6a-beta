@@ -1,3 +1,12 @@
+body {
+  background: url(https://s10.gifyu.com/images/fon65f73d88c8c06625.gif) no-repeat; /* Задаём фон GIF-картинкой */
+background-position: center center;      
+background-attachment: fixed;    
+ background-size: cover;  
+ background-color: #583f79; }
+
+
+
 h1 {
     width: 100%;
     height: auto;
