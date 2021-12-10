@@ -1,5 +1,5 @@
 body {
-  background: url(fon1.gif) no-repeat; /* Задаём фон GIF-картинкой */
+  background: url(fon.jpg) no-repeat; /* Задаём фон GIF-картинкой */
 background-position: center center;      
 background-attachment: fixed;    
  background-size: cover;  
