@@ -1,11 +1,9 @@
 body {
-  background: url(fon.jpg) no-repeat; /* Задаём фон GIF-картинкой */
-background-position: center center;      
-background-attachment: fixed;    
- background-size: cover;  
- background-color: #583f79; }
-
-
+  background: url(fon.jpg) no-repeat;
+  -moz-background-size: 100%; 
+  -webkit-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
 
 h1 {
     width: 100%;
